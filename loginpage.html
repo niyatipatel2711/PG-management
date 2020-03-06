@@ -1,0 +1,78 @@
+<html>
+<head>
+
+	<style type="text/css">
+	input{
+		height: 25px;
+		text-align: right;
+		background-color: white;
+		border:1px ridge lightgreen; 
+	}	
+	body{
+	background: linear-gradient(
+		to right,
+		#2C5364,
+		#203A43,
+		#0F2027
+		);
+	}
+	h4{
+		font-size: 30px;
+		font-weight: 400;
+		color: white;
+		background-color: brown;
+		padding: 8px 20px;
+		width: 460;
+		border-radius: 20px 20px 0px 0px;
+		font-family: Calibri;
+	}
+	div{
+		border-radius: 20px;
+		height: 550px;
+		width: 500px;
+		background-color: white;
+		margin-top: 60px;
+	}
+	table{
+		color: navy;
+		font-family: Calibri;
+		font-size: 20px;
+	}
+	select{
+		width: 285px;
+		border:1px ridge lightgreen;
+		height: 25px; 
+	}
+	.submit
+	{
+		text-align: center;
+		height: 40px;
+		width: 80px;
+	}
+	body
+	</style>
+</head>
+<body>
+	<center>	
+	<div>
+	<h4>REGISTRATION FORM</h4>
+	<form>
+		<table cellspacing="20px" cellpadding="7px" >
+			<tr>
+				<td>Username</td><td><input type="text" size="40" title="1st character must be an alphabet ; no special characters" required="required" placeholder="ABcd1782"  pattern="[A-Za-z]{1}[A-Za-z0-9]+" ></td></tr> 
+		<tr><td>Password</td><td><input type="Password" size="40" name="pwd" title="atleast 5 characters" minlength="5" required="required" placeholder="abc2006"></td></tr>
+		<tr><td>Phone no.</td><td><input type="Tel" size="40" name="phno" title="XXXX-XXX-XXX" placeholder="1010101010" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"></td></tr>
+		<tr><td>Email</td><td><input type="Email" size="40" name="em" title="enter email address" placeholder="example@gmail.com"></td></tr>
+		<tr><td>Select city</td><td><select>
+			<option>Nadiad</option>
+			<option>Anand</option>
+			<option>Changa</option>
+		</select></td></tr>
+		<tr><td>Age</td><td><input type="range" name="age" min="18" max="80" step="2"></td></tr>
+		<tr><td></td><td><input type="submit" size="80" name="sub" value="Submit" class="submit"></td></tr>
+	</table>
+	</form>
+	</div>
+	</center>
+</body>
+</html>

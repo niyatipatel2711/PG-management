@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Detailed info</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Peddana">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Odibee+Sans">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style type="text/css">
+		body
+		{
+			background-color: lavender;
+			margin: 0px;
+			padding: 0px;
+			
+		}
+		/*nav ul
+		{
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			font-size: 26px;
+			color: white;
+			background-color: #115673;
+			width: 100%;
+			word-spacing: 200px;
+			text-align: center;
+			height: 50px;
+			opacity: 0px;
+		}
+		li
+		{
+			display: inline;
+			margin: 0px;
+			padding: 10px;
+			font-family: "Georgia";
+		}
+		li:hover
+		{
+			background-color: #F25757;
+		}*/
+		.p1
+		{
+			color: #fff;
+			font-family: "Georgia";
+			padding-top: 30px;
+			font-size: 20px;
+			font-weight: 800;
+			width: 30px;
+			display: inline-flex;
+			float: left;
+		}
+		.tnav{
+			float: right;
+			display: inline-flex;
+		}
+		nav 
+		{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100px;
+			padding: 10px 90px;
+			box-sizing: border-box;
+			background: rgba(0,0,0,0.5);
+			font-family: Georgia;
+		}
+
+		nav .logo img
+		{
+			padding: 2px 20px;
+			height: 80px;
+			width: 80px;
+			float: left;
+			font-weight: bold;
+		}
+		nav ul
+		{
+			list-style-type: none;
+			margin: 0px;
+			float: right;
+			padding: 0px;
+			display: flex;
+		}
+		nav ul li a
+		{
+			line-height: 80px;
+			color: #fff;
+			padding: 12px 40px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		nav ul li a:hover
+		{
+			background-color: rgba(0,0,0,0.7);
+			border-radius: 6px;
+		}
+		nav ul li a.active
+		{
+			background: #E2472F;
+			color: #fff;
+			border-radius: 6px;
+		}
+		#hr1{
+		border:0.4px solid teal;
+		width: 100%;
+		margin:0px;
+		margin-bottom:0px;
+		}
+		section
+		{
+			width: 100%;
+			height: 100vh;
+			background: url('pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg');
+			background-size: cover;
+			background-position: center;
+		}
+		section .login{
+			margin-left:750px;
+			padding-top: 240px;
+			color: powderblue;
+			font-family:Playfair Display;
+			font-size: 140px;
+			width: 600px;
+			letter-spacing: 10px;
+		}
+		section .login .tagl{
+		font-size: 50px;
+		font-family:Tangerine;
+		color: #fff5e6;
+		letter-spacing: 10px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		}
+	section .log .loginbtn{
+		text-align: center;
+		vertical-align: middle;
+		background-color: rgba(0,0,0,0.2);
+		border:1px solid powderblue;
+		color: powderblue;
+  		padding: 8px 75px;
+  		border-radius:3px; 
+  		margin: 0px;
+  		box-shadow: 1px 1px 1px powderblue,-1px -1px 1px powderblue;
+	}
+	section .log .loginbtn:hover{
+		background-color:powderblue;
+		border:2px solid powderblue ;
+		color:#111;	
+		cursor: pointer;
+	}
+	section .log .loginbtn:active{
+		position: relative;
+		margin-top: 2px;
+	}
+	.body1{
+		background-color:white;
+		border-radius: 20px;
+		height: 25vh;
+		z-index: 2;
+		float: left;
+		margin-top: 200px;
+		margin-left: 8%;
+		width: 85%;
+		
+	}	
+	.body2{
+		font-family:Playfair Display;
+		font-size: 24px;
+		text-align: center; 
+
+	}
+	.body2 .hr2
+	{
+		width: 85%;
+		border:0.8px solid teal;
+	}
+	.body2 .d1{
+		display: inline-block;
+		width: 300px;
+		background-color: white;
+		height: 540px;
+		margin: 0px 10px;
+		font-family: Peddana;
+		font-size: 30px;
+		padding: 0px 10px;
+	}
+	.body2 .d1 img{
+		height: 280px;
+		width: 300px;
+	}
+	section .log
+	{
+		padding-top: 30px;
+		padding-left: 650px;		
+	}
+	.body1 .d2{
+		display: inline-block;
+		width: 33%;
+		padding-top: 25px; 
+		text-align: center;
+		border-left: 0.2px solid teal;
+		
+		height: 22vh;
+	}
+	.body1 .d2:first-child{
+		border-left: none;
+	}
+	.body1 .d2 img{
+		border-radius: 50%;
+		width: 130px;
+		height: 130px;
+	}
+	footer p{
+		column-count: 3;
+		column-gap: 70px; 
+	}
+	footer{
+		padding: 20px 60px;
+		font-size: 20px;
+		font-family: Calibri;
+		background-color: grey;
+		color: lightgrey;
+	}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<nav>
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<div class="p1">TAVERN</div>
+			<div class="tnav">
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="rooms.html">Rooms</a></li>
+				<li><a href="#">Facilities</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>	
+			</div>
+		</nav>
+	</div>
+		
+		<section>
+			<div class="login"><center>
+				TAVERN<hr id="hr1"><p class="tagl">a place like home</p>
+				</center></div>
+			<div class="log"><center>
+					<button class="loginbtn" onclick="window.location.href='loginpage.html';">LOG IN</button></center>
+				</div>
+			
+			<div class="body1">
+				<div class="d2"><img src="l2.jpg"><br>NADIAD</div>
+				<div class="d2"><img src="l1.jpg"><br>ANAND</div>
+				<div class="d2"><img src="l3.jpg"><br>CHANGA</div>
+			</div>
+			
+		</section>
+	<div class="body2"><br><br><br><br><br><br>
+
+		<hr class="hr2">WHAT WE OFFER<hr class="hr2"><br>
+		<div class="d1"><img src="w1.jpg"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore ma </p></div>
+		<div class="d1"><img src="w2.jpg"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore ma </p></div>
+		<div class="d1"><img src="w3.jpg"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore ma </p></div>
+		<div class="d1"><img src="w4.jpg"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore ma </p></div>
+	</div>
+	<br><br><br><br><br>
+	<footer>
+		<h2>About us</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Room 1</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+
+	<style type="text/css">
+		body
+		{
+			background: linear-gradient(
+		to right,
+		#2C5364,
+		#203A43,
+		#0F2027
+		);
+		}
+		.p1
+		{
+			color: #fff;
+			font-family: "Georgia";
+			padding-top: 30px;
+			font-size: 20px;
+			font-weight: 800;
+			width: 30px;
+			display: inline-flex;
+			float: left;
+		}
+		.tnav{
+			float: right;
+			display: inline-flex;
+		}
+		nav 
+		{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100px;
+			padding: 10px 90px;
+			box-sizing: border-box;
+			background: rgba(0,0,0,0.5);
+			font-family: Georgia;
+		}
+
+		nav .logo img
+		{
+			padding: 2px 20px;
+			height: 80px;
+			width: 80px;
+			float: left;
+			font-weight: bold;
+		}
+		nav ul
+		{
+			list-style-type: none;
+			margin: 0px;
+			float: right;
+			padding: 0px;
+			display: flex;
+		}
+		nav ul li a
+		{
+			line-height: 80px;
+			color: #fff;
+			padding: 12px 40px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		nav ul li a:hover
+		{
+			background-color: rgba(0,0,0,0.7);
+			border-radius: 6px;
+		}
+		nav ul li a.active
+		{
+			background: #E2472F;
+			color: #fff;
+			border-radius: 6px;
+		}
+		.photo{
+			margin: 20px;
+			background-image: url("rr1.jpg");
+			height: 500px;
+			width: 500px;
+			display: inline-block;
+		}
+				.div1{
+			margin-top: 180px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<nav>
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<div class="p1">TAVERN</div>
+			<div class="tnav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="rooms.html" class="active">Rooms</a></li>
+				<li><a href="#">Facilities</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		</nav>
+	</div>	
+<div class="div1">
+	<div class="photo"><img src="rr1.jpg"></div>
+	
+</div>
+</body>
+</html>
